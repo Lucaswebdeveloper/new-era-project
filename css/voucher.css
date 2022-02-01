@@ -1,0 +1,474 @@
+* {
+    box-sizing: border-box;
+}
+
+/*INDEX.ASPX*/
+
+/*seus vouchers*/
+.seus-vouchers {
+    width: 100%;
+    float: left;
+}
+
+    .seus-vouchers .seus-vouchers-titulo {
+        width: 100%;
+        float: left;
+        text-align: center;
+        font-size: 22px;
+    }
+
+    .seus-vouchers .vouchers {
+        width: 100%;
+        float: left;
+        padding: 15px 15px;
+        max-height: 350px;
+        overflow: auto;
+    }
+
+        .seus-vouchers .vouchers span .titulo-campanha {
+            width: 100%;
+            font-size: 18px;
+            float: left;
+        }
+
+        .seus-vouchers .vouchers span a {
+            font-weight: bold !important;
+            text-decoration: underline !important;
+            margin: 5px 15px;
+        }
+
+        .seus-vouchers .vouchers span .icone_excluir_voucher {
+            cursor: pointer;
+        }
+
+        .seus-vouchers .vouchers span .voucher {
+            width: 100%;
+            float: left;
+            margin-top: 5px;
+            padding: 15px 5px;
+            background-color: #eaebeb;
+        }
+
+            .seus-vouchers .vouchers span .voucher .msg_excluir_voucher {
+                width: 100%;
+                float: left;
+                padding: 5px;
+                font-size: 16px;
+                display: none;
+            }
+
+                .seus-vouchers .vouchers span .voucher .msg_excluir_voucher .excluir_voucher {
+                    padding: 0 15px;
+                    cursor: pointer;
+                }
+
+                .seus-vouchers .vouchers span .voucher .msg_excluir_voucher .nao_excluir_voucher {
+                    padding: 0 15px;
+                    cursor: pointer;
+                }
+/*fim seus vouchers*/
+
+/*serviços*/
+.msg_voucher {
+    width: 98%;
+    float: left;
+    margin-left: 1%;
+    font-size: 18px;
+    display: none;
+}
+
+.servico {
+    width: 30%;
+    float: left;
+    margin: 1%;
+    padding: 1%;
+    color: #ffffff;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.esgotado {
+    background-color: #959DA1 !important;
+    cursor: no-drop;
+}
+
+    .esgotado .total {
+        background-color: #808080;
+        text-align: center;
+        padding: 5px;
+        margin-top: 30%;
+    }
+
+.total {
+    width: 100%;
+    float: left;
+    margin-top: 33%;
+}
+/*fim serviços*/
+
+/*GRUPO.ASPX*/
+.grupo {
+    width: 100%;
+    float: left;
+    margin: 1%;
+    padding: 1%;
+    color: #ffffff;
+    font-size: 16px;
+    color: #333;
+    background-color: #fff;
+    border: 1px solid #ddd;
+}
+
+    .grupo .titulo {
+        width: 100%;
+        float: left;
+        background-color: #3F4567;
+        color: #ffffff;
+        padding: 5px;
+    }
+
+    .grupo .informacoes {
+        width: 100%;
+        float: left;
+        padding: 15px 0;
+    }
+
+        .grupo .informacoes div {
+            width: 100%;
+            float: left;
+        }
+
+    .grupo .btn-resgatar {
+        width: 100%;
+        float: left;
+        padding: 0;
+    }
+
+    .grupo .resgatar {
+        padding: 5px 10px;
+        background-color: #0094ff;
+        color: #fff;
+        cursor: pointer;
+    }
+
+    .grupo .imprimir {
+        padding: 5px 10px;
+        background-color: #3F4567;
+        color: #fff;
+        cursor: pointer;
+    }
+
+    .grupo .esgotado {
+        padding: 5px 10px;
+        background-color: #890606;
+        color: #fff;
+    }
+
+
+/*VOUCHER.ASPX*/
+
+@font-face {
+    font-family: 'Code 128';
+    src: url('../font/code128.ttf');
+}
+
+.voucher-impresso {
+    width: 800px;
+    height: 820px;
+    border: 1px solid #9B9B9B;
+    border-top: 15px solid #3F4567;
+    margin: 0 auto;
+    padding: 0 15px;
+    color: #4f4f4d;
+    font-size: 18px;
+}
+
+    .voucher-impresso .logo-cod-barra {
+        width: 100%;
+        float: left;
+        padding: 0 5px;
+        border-bottom: 2px solid #9B9B9B;
+        border-bottom-style: dashed;
+    }
+
+        .voucher-impresso .logo-cod-barra .logo-bem-viver {
+            width: 30%;
+            float: left;
+        }
+
+            .voucher-impresso .logo-cod-barra .logo-bem-viver h1 img {
+                width: 100%;
+            }
+
+        .voucher-impresso .logo-cod-barra .logo-campanha {
+            width: 45%;
+            float: left;
+            padding: 0px 0;
+            text-align: left;
+        }
+
+            .voucher-impresso .logo-cod-barra .logo-campanha img {
+                width: 100%;
+            }
+
+
+        .voucher-impresso .logo-cod-barra .cod_barras {
+            font-family: 'Code 128';
+            font-size: 80px;
+            width: 30%;
+            float: left;
+            padding-top: 15px;
+        }
+
+    .voucher-impresso .info-servico-associado {
+        width: 100%;
+        float: left;
+        border-bottom: 2px solid #9B9B9B;
+        border-bottom-style: dashed;
+        padding: 30px 0;
+    }
+
+        .voucher-impresso .info-servico-associado .img-servico {
+            width: 40%;
+            float: left;
+            margin-left: 15%;
+        }
+
+            .voucher-impresso .info-servico-associado .img-servico img {
+                width: 100%;
+            }
+
+        .voucher-impresso .info-servico-associado .info-servico {
+            width: 30%;
+            float: left;
+            padding: 0px 0px;
+            margin-left: 10%;
+        }
+
+            .voucher-impresso .info-servico-associado .info-servico span {
+                float: left;
+                padding: 5px 5px;
+                background-color: #3f4567;
+                color: #ffffff;
+                font-size: 14px;
+            }
+
+            .voucher-impresso .info-servico-associado .info-servico h3 {
+                width: 100%;
+                float: left;
+                color: #a4d0d1;
+                font-size: 26px;
+                -webkit-margin-before: 0em;
+                -webkit-margin-after: 0em;
+            }
+
+            .voucher-impresso .info-servico-associado .info-servico .nome-servico {
+                width: 100%;
+                float: left;
+                font-weight: bold;
+                font-size: 22px;
+                padding: 10px 0;
+            }
+
+            .voucher-impresso .info-servico-associado .info-servico .descricao-servico {
+                width: 100%;
+                float: left;
+                font-size: 20px;
+                padding: 5px 0 30px 0;
+            }
+
+            .voucher-impresso .info-servico-associado .info-servico .info-associado {
+                width: 100%;
+                float: left;
+                font-weight: bold;
+                font-size: 16px;
+                padding-bottom: 50px;
+            }
+
+
+    .voucher-impresso .info-voucher {
+        width: 100%;
+        float: left;
+        border-bottom: 2px solid #9B9B9B;
+        border-bottom-style: dashed;
+        padding: 30px 0 100px 0;
+    }
+
+        .voucher-impresso .info-voucher .info-data-endereco {
+            width: 50%;
+            float: left;
+        }
+
+            .voucher-impresso .info-voucher .info-data-endereco .cod-voucher {
+                width: 100%;
+                float: left;
+                font-weight: bold;
+                font-size: 22px;
+            }
+
+            .voucher-impresso .info-voucher .info-data-endereco .info-data {
+                width: 100%;
+                float: left;
+                font-size: 18px;
+            }
+
+            .voucher-impresso .info-voucher .info-data-endereco .info-endereco-titulo {
+                width: 100%;
+                float: left;
+                font-weight: bold;
+                margin-top: 15px;
+                font-size: 22px;
+            }
+
+            .voucher-impresso .info-voucher .info-data-endereco .info-endereco {
+                width: 100%;
+                float: left;
+            }
+
+        .voucher-impresso .info-voucher .cod-seguranca {
+            width: 45%;
+            float: right;
+        }
+
+            .voucher-impresso .info-voucher .cod-seguranca .cod-seguranca-titulo {
+                width: 100%;
+                position: relative;
+                font-weight: bold;
+                font-size: 22px;
+            }
+
+            .voucher-impresso .info-voucher .cod-seguranca .cod-seguranca-img {
+                width: 100%;
+                height: 80px;
+                float: left;
+                margin-top: 15px;
+                font-weight: bold;
+                font-size: 22px;
+                align-items: center;
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+                justify-content: center;
+                background-image: url(../imagens/bg/set1_1_001.svg);
+                background-size: cover;
+                align-items: center;
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+                justify-content: center;
+            }
+
+                .voucher-impresso .info-voucher .cod-seguranca .cod-seguranca-img img {
+                    color: #fff;
+                }
+
+
+
+    .voucher-impresso .info-regras {
+        width: 100%;
+        float: left;
+        position: relative;
+        padding-top: 80px;
+        text-align: center;
+    }
+
+        .voucher-impresso .info-regras .regras-titulo {
+            width: 100%;
+            float: left;
+            font-weight: bold;
+            padding: 5px 0;
+            font-size: 22px;
+        }
+
+        .voucher-impresso .info-regras .regras {
+            width: 100%;
+            float: left;
+            font-size: 22px;
+        }
+
+        .voucher-impresso .info-regras .regra {
+            margin-right: 5px;
+        }
+
+
+.logos-apoiadores {
+    width: 800px;
+    margin: 0 auto;
+    padding: 15px 30px;
+}
+
+    .logos-apoiadores .logos {
+        width: 100%;
+        float: left;
+        padding: 15px;
+        font-size: 12px;
+        align-items: center;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+        .logos-apoiadores .logos .logo-anajustra {
+            width: 12%;
+            float: left;
+            margin-right: 10%;
+        }
+
+            .logos-apoiadores .logos .logo-anajustra img {
+                width: 100%;
+            }
+
+        .logos-apoiadores .logos .logo-cdv {
+            width: 18%;
+            float: left;
+        }
+
+            .logos-apoiadores .logos .logo-cdv img {
+                width: 100%;
+            }
+
+        .logos-apoiadores .logos .logo-dantas {
+            width: 20%;
+            float: left;
+            margin-left: 8%;
+        }
+
+            .logos-apoiadores .logos .logo-dantas img {
+                width: 100%;
+            }
+
+
+/******** RESPONSIVO **************/
+
+@media (max-width: 1000px) and (min-width: 426px) {
+    .conteudo {
+        width: 100% !important;
+        max-width: 100% !important;
+        padding: 0 15px;
+    }
+
+    .servico {
+        width: 48% !important;
+        float: left;
+    }
+}
+
+@media (max-width: 425px) and (min-width: 320px) {
+    .conteudo {
+        width: 100% !important;
+        max-width: 100% !important;
+        padding: 0 5px;
+    }
+
+    .servico {
+        width: 100% !important;
+        float: left;
+    }
+}
+
+@media print {
+    .icon-print {
+        display: none;
+    }
+}

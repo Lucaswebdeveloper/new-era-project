@@ -1,0 +1,92 @@
+.esconder-item{display: none}
+.lita-edicao-opcoes{border-bottom: solid 1px #c3c3c37d;padding-bottom: 1px;background-color: #e9ecef;margin-left: 0;}
+.lita-edicao-opcoes img{width: 22px;padding: 2px;cursor: pointer;opacity:1;}
+.informacoes-convenios .row .informacoes-convenio-individual h3,
+.informacoes-convenios .row .informacoes-convenio-individual p {color: #fff;}
+.noticia-chamada { font-size: 22px !important;font-style: italic; }
+.noticia-data-publi{ font-size: 14px !important; }
+#menu-principal2 { box-shadow: 0 4px 6px 0 rgba(28,28,28,.05); }
+.artigo-espaco-individual{margin-top: 30px;}
+/* .navbar-left > ul > li > ul { display: block !important; } */
+#galleria{height:467px}
+.galleria-stage {
+    height: 467px;
+    position: absolute;
+    top: 10px;
+    bottom: 60px;
+    left: 10px;
+    right: 10px;
+    overflow: hidden;
+}
+.lista-noticias-btn, .lista-search-btn{
+    background-color: #22639b !important;
+    margin: 20px auto;
+    position: relative;
+    display: table !important;
+    color: #fff !important;
+}
+#flive-super-destaque>.fivelive{
+    top: 8px;
+    display: block !important;
+    float: left;
+    right: -50px !important;
+}
+#flive-super-destaque .qt {
+    display: none;
+}
+.hide {
+    display:none !important;
+}
+.retranca-01-p .conteudo-noticia-interna-p{
+    color: #fff;
+}
+.imagem-format{
+    max-height: 350px;
+    object-fit: scale-down;
+    margin: 0 auto;
+    display: block;
+    background-color: #FFF;
+    width: 80%;
+    display:none !important;
+}
+.galleria-image>img{
+    max-width: 100%!important;
+    object-fit: contain;
+    /* max-height: 512px !important; */
+    top: 0 !important;
+    background-color: #fff;
+}
+.btn-acao-login {
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 600;
+    background-color: #537cd4;
+    padding: 6px 12px;
+    position: relative;
+    display: inline-block;
+    margin-top: 8px;
+}
+.home-setip-1-esquerda {
+    width: 530px !important;
+}
+.bloco-acoes-logado, .bloco-acoes-nlogado{
+    display: none;
+}
+.galleria-container{
+    height: 505px !important;
+    margin-bottom: 0px;
+}
+.Right{
+    float: right;
+    width: 280px;
+    height: auto;
+}
+
+
+@media (max-width: 414px) {
+    .Right{
+        float: none;
+        width: 100%;
+        height: auto;
+    }
+}

@@ -1,0 +1,215 @@
+﻿
+/* =================== CARTÃO ASSOCIADO / CARTÃO DEPENDENTE ============================= */
+
+
+.container-cartao-associado {
+    margin-bottom: 30px;
+    padding: 20px 0 40px 0;
+    width: 100%;
+    max-width: 1050px;
+    height: auto;
+}
+
+    .container-cartao-associado .cartao-associado {
+        width: 100%;
+        float: left;
+        padding: 0px 0 100px 0;
+        color: #000;
+    }
+
+        .container-cartao-associado .cartao-associado .titulo-pagina {
+            font-weight: bold;
+        }
+
+    .container-cartao-associado .meus_dependentes h4 {
+        width: 100%;
+        float: left;
+        margin-bottom: 15px;
+        font-weight: bold;
+    }
+
+    .container-cartao-associado .dependente {
+        width: 100%;
+        float: left;
+    }
+
+        .container-cartao-associado .dependente .lista-seus-dependentes {
+            list-style: none;
+            padding: 0px;
+            margin: 0px;
+        }
+
+            .container-cartao-associado .dependente .lista-seus-dependentes li {
+                width: 100%;
+                float: left;
+                font-weight: bold;
+                margin: 1px 0;
+            }
+
+                .container-cartao-associado .dependente .lista-seus-dependentes li .nome_depe {
+                    width: 75%;
+                    float: left;
+                    padding: 5px;
+                    font-weight: bold;
+                }
+
+                .container-cartao-associado .dependente .lista-seus-dependentes li .imprimir_cartao_dependente {
+                    width: 25%;
+                    background-color: #537CD4;
+                    text-align: center;
+                    padding: 5px 10px;
+                    color: #FFF;
+                    font-family: 'Patua One', cursive;
+                    float: right;
+                }
+
+                .container-cartao-associado .dependente .lista-seus-dependentes li:nth-child(odd) .nome_depe {
+                    background: #E7E7E7;
+                }
+
+                .container-cartao-associado .dependente .lista-seus-dependentes li:nth-child(even) .nome_depe {
+                    background: #F8F8F8;
+                }
+
+        .container-cartao-associado .dependente .btn-novo-dependente {
+            width: 100%;
+            float: left;
+            margin-top: 15px;
+        }
+
+            .container-cartao-associado .dependente .btn-novo-dependente a, imprimir_cartao_dependente2 {
+                font-size: 16px;
+                background-color: #537CD4;
+                text-align: center;
+                padding: 10px 10px;
+                color: #FFF;
+                font-family: 'Patua One', cursive;
+            }
+
+.imprimir_cartao_dependente2 {
+    font-size: 16px;
+    background-color: #537CD4;
+    text-align: center;
+    padding: 10px 10px;
+    color: #FFF;
+    font-family: 'Patua One', cursive;
+    float: right;
+}
+
+/* =================== CADASTRAR DEPENDENTE ============================= */
+
+.container-cadastrar-dependente {
+    margin: 0px auto;
+    margin-bottom: 30px;
+    padding: 20px 0 40px 0;
+    width: 100%;
+    max-width: 1050px;
+    height: auto;
+}
+
+    .container-cadastrar-dependente .cadastrar-denpendente {
+        width: 100%;
+        float: left;
+        color: #000;
+    }
+
+
+        .container-cadastrar-dependente .cadastrar-denpendente .titulo-pagina {
+            color: #484848;
+            font-weight: bold;
+        }
+
+
+            .container-cadastrar-dependente .cadastrar-denpendente .form_dependente .form-control {
+                border-radius: 0px;
+            }
+
+            .container-cadastrar-dependente .cadastrar-denpendente .form_dependente .p-full {
+                padding: 0 15px !important;
+            }
+
+            .container-cadastrar-dependente .cadastrar-denpendente .form_dependente .form_cadas {
+                padding: 0;
+            }
+
+            .container-cadastrar-dependente .cadastrar-denpendente .form_dependente .btn-salvar-dependente {
+                width: 100%;
+                float: left;
+                margin-top: 15px;
+                text-align: center;
+            }
+
+    .container-cadastrar-dependente .editar-denpendentes {
+        width: 100%;
+        float: left;
+        margin-top: 100px;
+        color: #000;
+    }
+
+
+        .container-cadastrar-dependente .editar-denpendentes .titulo-pagina {
+            color: #484848;
+            font-weight: bold;
+        }
+
+
+
+
+        .container-cadastrar-dependente .editar-denpendentes .dependente {
+            width: 60%;
+            float: left;
+        }
+
+            .container-cadastrar-dependente .editar-denpendentes .dependente .lista-seus-dependentes {
+                list-style: none;
+                padding: 0px;
+                margin: 0px;
+            }
+
+                .container-cadastrar-dependente .editar-denpendentes .dependente .lista-seus-dependentes li {
+                    width: 100%;
+                    float: left;
+                    font-weight: bold;
+                    margin: 1px 0;
+                }
+
+                    .container-cadastrar-dependente .editar-denpendentes .dependente .lista-seus-dependentes li .nome_depe {
+                        width: 72%;
+                        float: left;
+                        padding: 5px;
+                        font-weight: bold;
+                    }
+
+                    .container-cadastrar-dependente .editar-denpendentes .dependente .lista-seus-dependentes li .btn_editar_dependente {
+                        width: 20%;
+                        background-color: #537CD4;
+                        text-align: center;
+                        padding: 5px 10px;
+                        color: #000;
+                        float: left;
+                    }
+
+                    .container-cadastrar-dependente .editar-denpendentes .dependente .lista-seus-dependentes li .excluir-dependente {
+                        background-color: #666666;
+                        text-align: center;
+                        padding: 0 10px;
+                        font-size: 21px;
+                        color: #000;
+                        float: left;
+                    }
+
+                    .container-cadastrar-dependente .editar-denpendentes .dependente .lista-seus-dependentes li:nth-child(odd) .nome_depe {
+                        background: #E7E7E7;
+                    }
+
+                    .container-cadastrar-dependente .editar-denpendentes .dependente .lista-seus-dependentes li:nth-child(even) .nome_depe {
+                        background: #F8F8F8;
+                    }
+
+
+                .container-cadastrar-dependente .editar-denpendentes .dependente .lista-seus-dependentes .form_alt_dep {
+                    width: 100%;
+                    float: none;
+                    clear: both;
+                    display: none;
+                }

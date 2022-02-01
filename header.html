@@ -1,0 +1,83 @@
+<nav class="navbar navbar-dark d-block w-100">
+    <div class="container">
+        <div class="w-100">
+            <div class="row align-items-center">
+                <div class="col-8">
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#menu-principal" aria-controls="menu-principal" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <a class="navbar-brand" href="index.php" title="Anajustra">
+                        <img src="../img/logo-anajustra.png" alt="Anajustra" title="Anajustra" />
+                    </a>
+                </div>
+                <div class="col-4 text-right">
+                    <div class="area-restrita-topo">
+                        <i class="fas fa-user-circle"></i>
+                        <span>Ana Cláudia</span>
+                        <i class="fas fa-angle-down"></i>
+                    </div>
+                    <div class="abre-busca">
+                        <i class="fas fa-search"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="collapse navbar-collapse w-100" id="menu-principal">
+        <div class="container">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a href="#">NOTÍCIAS</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#">AÇÕES</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#">CONVÊNIOS</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#">PRÓ-SAÚDE</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#">PERMUTA E REDISTRIBUIÇÃO</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#">BEM VIVER</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#">ESPAÇO CULTURAL</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#">CONTATO</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<div id="box-search">
+    <div class="close-search"><i class="fas fa-times"></i></div>
+    <form id="search" method="post" action="buscar">
+        <div class="container">
+            <input required="required" type="text" class="text" name="busca" id="busca" placeholder="Buscar Produtos" />
+            <button type="submit"><i class="fas fa-search"></i></button>
+        </div>
+    </form>
+</div>
+
+<!-- Arquivos inseridos somente para exibição do layout, devem ser removidos deste arquivo -->
+<link rel="stylesheet" href="../css/bootstrap/bootstrap.min.css">
+<link href="../css/estilo.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="../js/jquery.js"></script>
+<script language="JavaScript" type="text/javascript" src="../js/plugins/mascara.js"></script>
+<script defer src="https://use.fontawesome.com/releases/v5.13.0/js/all.js"></script>
+<script src="../js/bootstrap/bootstrap.min.js"></script>
+
+<script language="JavaScript" type="text/javascript" src="../js/app.js?versao=1.02"></script>
+<script language="JavaScript" type="text/javascript" src="../js/plugins/lazyload.min.js"></script>
+<script>
+    (function () {
+        var ll = new LazyLoad({
+            threshold: 0
+        });
+    }());
+</script>

@@ -1,0 +1,711 @@
+@import url("responsivo_interno.css");
+
+
+.bg_permutas {
+    background-image: url(../imagens/mural_permutas.jpg);
+}
+
+.aviso_busca {
+    float: left;
+    width: 100%;
+    margin-bottom: 20px;
+    font-size: 17px;
+    color: #999999;
+    font-family: 'Roboto Condensed', sans-serif !important;
+}
+
+    .aviso_busca span {
+        font-weight: bold;
+        color: #333333;
+    }
+
+.content_interno .input-group {
+    float: left;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.nav-tabs a {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.nav-tabs li.ative a {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.section_busca1, .section_busca2 {
+    color: #3F4C71;
+    font-family: 'Roboto Condensed', sans-serif !important;
+    font-size: 18px !important;
+    margin-bottom: 10px !important;
+}
+
+    .section_busca1 i, .section_busca2 i {
+        color: #5fafe0;
+    }
+
+
+.busca_permuta {
+    padding: 0 !important;
+}
+
+    .busca_permuta h4, h4.titulo_permuta {
+        color: #3F4C71;
+        font-family: 'Roboto Condensed', sans-serif !important;
+        font-weight: 300;
+        font-size: 30px !important;
+        padding-bottom: 5px;
+        border-bottom: 1px solid #D6D6D6;
+    }
+
+.chamada_permuta {
+    margin-bottom: 40px;
+}
+
+.icones_mural {
+    width: 98% !important;
+    height: 100%;
+    min-height: 80px;
+    float: left !important;
+    margin-bottom: 40px;
+    color: #fff;
+    font-size: 14px;
+}
+
+.icone_1, .icone_2, .icone_3 {
+    width: 230px;
+    height: 80px;
+    float: left;
+    margin-right: 5px;
+    cursor: pointer;
+    padding: 10px;
+    vertical-align: middle;
+}
+
+    .icone_1 i, .icone_2 i, .icone_3 i {
+        position: relative;
+        float: left;
+        margin: 15px 10px 10px 0;
+    }
+
+
+
+    .icone_1 div {
+        margin: 20px 0px 0px 0;
+    }
+
+    .icone_2 div, .icone_3 div {
+        margin: 9px 0px 0px 0;
+    }
+
+
+.icone_1 {
+    background-color: #5BCB85;
+}
+
+.icone_2 {
+    background-color: #3ABAA6;
+}
+
+.icone_3 {
+    background-color: #4B93BD;
+}
+
+.error_permu {
+    border: 2px solid #900 !important;
+}
+
+.qtde_result {
+    text-align: center;
+    font-size: 18px;
+    font-family: 'Roboto Condensed', sans-serif !important;
+    margin: 20px 0 30px 0;
+}
+
+.desc_busca {
+    text-align: center;
+    margin: 0 0 30px 0;
+    font-size: 18px;
+    font-family: 'Roboto Condensed', sans-serif !important;
+    font-weight: 400;
+    line-height: 130%;
+}
+
+    .desc_busca span {
+        font-weight: 300;
+    }
+
+.arrows {
+    margin: 20px 0 30px 0;
+    width: 97%;
+    text-align: center;
+    font-size: 26px;
+    color: #5FAFE0;
+}
+
+.msg_permuta {
+    display: none;
+    text-align: center;
+    margin: 0 0 30px 0;
+    font-size: 25px;
+    font-family: 'Roboto Condensed', sans-serif !important;
+}
+
+.aviso {
+    font-size: 14px;
+    color: #3F4C71;
+}
+
+.msg_error {
+    color: #990000;
+}
+
+.excluir {
+    background-color: #990000 !important;
+}
+
+/************************* ABAS CAPA *************************************/
+h4.titulo_permuta {
+    border-bottom: 0px solid #D6D6D6;
+    padding: 8px 0px 0 0px;
+}
+
+a .titulo_permuta {
+    cursor: default !important;
+}
+
+h3.titulo_abas {
+    color: #3F4C71;
+    font-family: 'Roboto Condensed', sans-serif !important;
+    font-weight: 300;
+    font-size: 27px !important;
+}
+
+.abas_permutas .nav-tabs > li.active > a, .abas_permutas .nav-tabs > li.active > a:hover, .abas_permutas .nav-tabs > li.active > a:focus {
+    color: #369;
+    cursor: default;
+    background-color: #F9F8F7;
+    border: 0px solid #ddd;
+    border-bottom-color: transparent;
+    text-decoration: underline;
+}
+
+.abas_permutas .nav > li > a {
+    color: #3F4C71;
+    font-family: 'Roboto Condensed', sans-serif !important;
+    font-weight: 300;
+    font-size: 27px !important;
+    position: relative;
+    display: block;
+    margin-right: 15px;
+    padding: 10px 0px 0 0px;
+}
+
+.abas_permutas .nav-tabs > li > a {
+    margin-right: 30px;
+    line-height: 1.42857143;
+    border: 0px solid transparent;
+    border-radius: 0 0;
+}
+
+    .abas_permutas .nav-tabs > li > a:hover {
+        color: #369;
+        border: none;
+        border-color: #eee #eee #ddd;
+    }
+
+.abas_permutas .nav-tabs {
+    border-bottom: 1px solid #ddd;
+}
+
+.abas_permutas .nav > li > a:hover,
+.abas_permutas .nav > li > a:focus {
+    text-decoration: underline;
+    background-color: transparent;
+}
+
+.abas_permutas .nav > li.active > a:hover {
+    text-decoration: underline;
+    background-color: transparent;
+}
+
+.abas_permutas .tab-content {
+    padding-top: 20px;
+    border: none;
+    background: transparent;
+}
+
+/***************************************GRID PERMUTAS **********************************************************/
+
+*, *:after, *:before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+
+.grid {
+    max-width: 710px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+    .grid li {
+        display: block;
+        float: left;
+        width: 47.5%;
+        min-height: 300px;
+        border: 1px solid #dddddd;
+        padding: 7px;
+        margin: 0 7px 10px 8px;
+        background-color: #FFF;
+        -webkit-transition: -webkit-transform 0.5s, all 0.5s;
+        transition: transform 0.5s, all 0.5s;
+        cursor: pointer !important;
+    }
+
+        .grid li:hover {
+            background-color: #5BCB85 !important;
+            color: #FFF !important;
+        }
+
+        .grid li p {
+            padding: 0 !important;
+            margin: 0 0 2px 0 !important;
+            font-size: 13px !important;
+            color: #52525F !important;
+        }
+
+        .grid li:hover p {
+            color: #FFF !important;
+        }
+
+        .grid li p span {
+            font-weight: bold !important;
+        }
+
+        .grid li p.cidade {
+            border-bottom: 1px solid #CCC !important;
+            padding-bottom: 8px !important;
+            margin-bottom: 8px !important;
+        }
+
+        .grid li:hover p.cidade {
+            border-bottom: 1px solid #C5EDD3 !important;
+        }
+
+        .grid li.shown,
+        .no-js .grid li,
+        .no-cssanimations .grid li {
+            opacity: 1;
+        }
+
+        .grid li a,
+        .grid li img {
+            outline: none;
+            border: none;
+            display: block;
+            max-width: 100%;
+        }
+
+    /* Effect 1: opacity */
+    .grid.effect-1 li.animate {
+        -webkit-animation: fadeIn 0.65s ease forwards;
+        animation: fadeIn 0.65s ease forwards;
+    }
+
+@-webkit-keyframes fadeIn {
+    0% {
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes fadeIn {
+    0% {
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+/* Effect 2: Move Up */
+.grid.effect-2 li.animate {
+    -webkit-transform: translateY(200px);
+    transform: translateY(200px);
+    -webkit-animation: moveUp 0.65s ease forwards;
+    animation: moveUp 0.65s ease forwards;
+}
+
+@-webkit-keyframes moveUp {
+    0% {
+    }
+
+    100% {
+        -webkit-transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+@keyframes moveUp {
+    0% {
+    }
+
+    100% {
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+/* Effect 3: Scale up */
+.grid.effect-3 li.animate {
+    -webkit-transform: scale(0.6);
+    transform: scale(0.6);
+    -webkit-animation: scaleUp 0.65s ease-in-out forwards;
+    animation: scaleUp 0.65s ease-in-out forwards;
+}
+
+@-webkit-keyframes scaleUp {
+    0% {
+    }
+
+    100% {
+        -webkit-transform: scale(1);
+        opacity: 1;
+    }
+}
+
+@keyframes scaleUp {
+    0% {
+    }
+
+    100% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+/* Effect 4: fall perspective */
+.grid.effect-4 {
+    -webkit-perspective: 1300px;
+    perspective: 1300px;
+}
+
+    .grid.effect-4 li.animate {
+        -webkit-transform-style: preserve-3d;
+        transform-style: preserve-3d;
+        -webkit-transform: translateZ(400px) translateY(300px) rotateX(-90deg);
+        transform: translateZ(400px) translateY(300px) rotateX(-90deg);
+        -webkit-animation: fallPerspective .8s ease-in-out forwards;
+        animation: fallPerspective .8s ease-in-out forwards;
+    }
+
+@-webkit-keyframes fallPerspective {
+    0% {
+    }
+
+    100% {
+        -webkit-transform: translateZ(0px) translateY(0px) rotateX(0deg);
+        opacity: 1;
+    }
+}
+
+@keyframes fallPerspective {
+    0% {
+    }
+
+    100% {
+        -webkit-transform: translateZ(0px) translateY(0px) rotateX(0deg);
+        transform: translateZ(0px) translateY(0px) rotateX(0deg);
+        opacity: 1;
+    }
+}
+
+/* Effect 5: fly (based on http://lab.hakim.se/scroll-effects/ by @hakimel) */
+.grid.effect-5 {
+    -webkit-perspective: 1300px;
+    perspective: 1300px;
+}
+
+    .grid.effect-5 li.animate {
+        -webkit-transform-style: preserve-3d;
+        transform-style: preserve-3d;
+        -webkit-transform-origin: 50% 50% -300px;
+        transform-origin: 50% 50% -300px;
+        -webkit-transform: rotateX(-180deg);
+        transform: rotateX(-180deg);
+        -webkit-animation: fly .8s ease-in-out forwards;
+        animation: fly .8s ease-in-out forwards;
+    }
+
+@-webkit-keyframes fly {
+    0% {
+    }
+
+    100% {
+        -webkit-transform: rotateX(0deg);
+        opacity: 1;
+    }
+}
+
+@keyframes fly {
+    0% {
+    }
+
+    100% {
+        -webkit-transform: rotateX(0deg);
+        transform: rotateX(0deg);
+        opacity: 1;
+    }
+}
+
+/* Effect 6: flip (based on http://lab.hakim.se/scroll-effects/ by @hakimel) */
+.grid.effect-6 {
+    -webkit-perspective: 1300px;
+    perspective: 1300px;
+}
+
+    .grid.effect-6 li.animate {
+        -webkit-transform-style: preserve-3d;
+        transform-style: preserve-3d;
+        -webkit-transform-origin: 0% 0%;
+        transform-origin: 0% 0%;
+        -webkit-transform: rotateX(-80deg);
+        transform: rotateX(-80deg);
+        -webkit-animation: flip .8s ease-in-out forwards;
+        animation: flip .8s ease-in-out forwards;
+    }
+
+@-webkit-keyframes flip {
+    0% {
+    }
+
+    100% {
+        -webkit-transform: rotateX(0deg);
+        opacity: 1;
+    }
+}
+
+@keyframes flip {
+    0% {
+    }
+
+    100% {
+        -webkit-transform: rotateX(0deg);
+        transform: rotateX(0deg);
+        opacity: 1;
+    }
+}
+
+/* Effect 7: helix (based on http://lab.hakim.se/scroll-effects/ by @hakimel) */
+.grid.effect-7 {
+    -webkit-perspective: 1300px;
+    perspective: 1300px;
+}
+
+    .grid.effect-7 li.animate {
+        -webkit-transform-style: preserve-3d;
+        transform-style: preserve-3d;
+        -webkit-transform: rotateY(-180deg);
+        transform: rotateY(-180deg);
+        -webkit-animation: helix .8s ease-in-out forwards;
+        animation: helix .8s ease-in-out forwards;
+    }
+
+@-webkit-keyframes helix {
+    0% {
+    }
+
+    100% {
+        -webkit-transform: rotateY(0deg);
+        opacity: 1;
+    }
+}
+
+@keyframes helix {
+    0% {
+    }
+
+    100% {
+        -webkit-transform: rotateY(0deg);
+        transform: rotateY(0deg);
+        opacity: 1;
+    }
+}
+
+/* Effect 8:  */
+.grid.effect-8 {
+    -webkit-perspective: 1300px;
+    perspective: 1300px;
+}
+
+    .grid.effect-8 li.animate {
+        -webkit-transform-style: preserve-3d;
+        transform-style: preserve-3d;
+        -webkit-transform: scale(0.4);
+        transform: scale(0.4);
+        -webkit-animation: popUp .8s ease-in forwards;
+        animation: popUp .8s ease-in forwards;
+    }
+
+@-webkit-keyframes popUp {
+    0% {
+    }
+
+    70% {
+        -webkit-transform: scale(1.1);
+        opacity: .8;
+        -webkit-animation-timing-function: ease-out;
+    }
+
+    100% {
+        -webkit-transform: scale(1);
+        opacity: 1;
+    }
+}
+
+@keyframes popUp {
+    0% {
+    }
+
+    70% {
+        -webkit-transform: scale(1.1);
+        transform: scale(1.1);
+        opacity: .8;
+        -webkit-animation-timing-function: ease-out;
+        animation-timing-function: ease-out;
+    }
+
+    100% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .grid li {
+        width: 48%;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .grid li {
+        width: 93%;
+    }
+}
+
+@media only screen and (max-width: 779px) and (min-width: 310px) {
+    .busca_permuta h4 {
+        font-size: 26px !important;
+        padding-top: 10px;
+    }
+
+    .input-group {
+        width: 50% !important;
+    }
+
+    .cidade1 {
+        float: none !important;
+    }
+
+    .cidade2 {
+        margin-right: 40px;
+    }
+
+    .chamada_permuta {
+        font-size: 13px;
+    }
+
+    .icone_1, .icone_2, .icone_3 {
+        width: 99%;
+        height: 60px;
+        margin-bottom: 10px;
+        padding: 0px 0 0 10px;
+    }
+
+    .modal-header {
+        padding: 5px;
+        margin: 0 !important;
+    }
+
+    .modal-body {
+        padding: 0px 0 0 5px;
+        margin: 0 !important;
+    }
+
+    .modal-footer {
+        padding: 5px;
+        margin: 0 !important;
+    }
+
+    .modal-body .aviso {
+        font-size: 12px !important;
+    }
+
+    .modal-body input {
+        width: 250px !important;
+    }
+}
+
+
+/*INDEX.ASPX*/
+
+.sua-permuta {
+    width: 45%;
+    float: left;
+	margin: 2% 5% 2% -1px;
+    padding: 15px;
+    border: 1px solid #cbcbcb;
+    background-color: #ffffff;
+    position: relative;
+}
+
+    .sua-permuta .permuta-acoes {
+        position: absolute;
+        right: 15px;
+        bottom: 15px;
+        font-size: 22px;
+        cursor: pointer;
+    }
+
+        .sua-permuta .permuta-acoes .per-editar {
+            color: #41BAF6;
+        }
+
+        .sua-permuta .permuta-acoes .per-excluir {
+            color: #CC0000;
+        }
+
+    .sua-permuta:hover .permuta-acoes {
+        display: inline-block;
+    }
+
+    .sua-permuta .permuta {
+        width: 100%;
+        float: left;
+        font-size: 14px;
+        word-break: break-all;
+    }
+
+        .sua-permuta .permuta span,
+        .sua-permuta .mensagem span {
+            font-weight: bold;
+        }
+
+    .sua-permuta .mensagem {
+        width: 100%;
+        float: left;
+        font-size: 14px;
+        border-top: 1px solid #808080;
+        padding: 5px 0;
+        margin-top: 15px;
+    }

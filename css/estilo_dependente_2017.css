@@ -1,0 +1,295 @@
+img {
+    border: none;
+}
+
+* html .clearBoth {
+    height: 1%;
+}
+
+/* Margin e Padding */
+body, form, h1, h2, h3, h4, h5, h6, p, li, ul, div, span, a, ol {
+    margin: 0;
+    padding: 0;
+}
+
+/* Clear */
+.clearBoth {
+    display: block;
+    clear: both;
+}
+
+/* Float */
+.floatLeft {
+    display: block;
+    float: left;
+}
+
+a {
+    text-decoration: none;
+}
+
+    a:hover {
+        text-decoration: underline;
+    }
+/* BackGround do Site */
+body {
+    color: #fff !important;
+    padding: 0;
+    background-color: #fff;
+}
+
+@media print {
+    * {
+        background: transparent !important;
+        color: #fff !important;
+        text-shadow: none !important;
+        filter: none !important;
+        -ms-filter: none !important;
+    }
+
+    #nome {
+        color: #000 !important;
+    }
+}
+/* Definindo Fonte - Alterar apenas as Propriedades */
+body, table, h1, h2, h3, h4, h5, h6, input, select, textarea, button, div, a {
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+}
+
+/*Estrutura base do site*/
+#alinhamento {
+    width: 548px;
+    margin: auto auto;
+    /* Para voltar o alinhamento dos textos */
+}
+
+#site {
+    display: block;
+    width: 548px;
+    height: 100%;
+}
+
+
+/*Inicio do bloco de div's que compões o topo*/
+#topo {
+    width: 548px;
+    height: 142px;
+    float: left;
+    /*	background-image:url(../imagens/topo.jpg);
+	background-repeat:no-repeat;*/
+    margin-top: 10px;
+}
+
+#titulo {
+    width: 548px;
+    height: 38px;
+    float: left;
+    margin-top: 30px;
+    text-align: center;
+    color: #FFF;
+    font-size: 24px;
+}
+/*Fim do bloco de div's que compões o topo*/
+
+
+
+/*Inicio do bloco de div's que compões o corpo do site*/
+#corpo {
+    width: 548px;
+    height: 580px;
+    float: left;
+}
+
+#descricao {
+    width: 548px;
+    height: 80px;
+    float: left;
+}
+
+    #descricao p {
+        margin-top: 25px;
+        text-align: center;
+        color: #000;
+        font-size: 14px;
+    }
+
+#cartao {
+    width: 455px;
+    height: 447px;
+    float: left;
+    /*	background-image:url(../imagens/cartao.jpg);
+	background-repeat:no-repeat;*/
+    margin: 10px 0 0 75px;
+    _margin: 10px 0 0 75px;
+}
+
+@media only screen and (max-width: 415px) {
+    #cartao {
+        width: 100%;
+        height: 447px;
+        float: left;
+        margin: 10px 5%;
+    }
+
+    #descricao, #corpo, #alinhamento, #site, #topo, #titulo, #descricao, #cartao, #rodape {
+        max-width: 100% !important;
+    }
+}
+
+#cartao img {
+    float: left;
+}
+
+#nome {
+    width: 300px;
+    height: 17px;
+    float: left;
+    color: #000 !important;
+    margin: -290px 0 0 32px;
+    _margin: -290px 0 0 32px;
+    font-size: 12px;
+    font-weight: bold;
+    overflow: hidden;
+}
+
+#legendas {
+    width: 300px;
+    height: 30px;
+    float: left;
+    color: #5a71b5;
+    margin: -271px 0 0 32px;
+    _margin: -271px 0 0 32px;
+    overflow: hidden;
+}
+
+    #legendas div {
+        height: 30px;
+        float: left;
+        color: #5a71b5;
+        font-size: 9px;
+        font-weight: normal;
+        opacity: 0.8;
+    }
+
+    #legendas .cod {
+        width: 190px;
+        margin: 0px 0 0 0px;
+    }
+
+    #legendas .cpf {
+        margin: 0px 0 0 17px;
+    }
+
+
+/* #cod{
+	width:100px;
+	height:26px;
+	float:left;
+	color:#000!important;
+	margin:-266px 0 0 28px;
+	font-size:12px;
+	font-weight:bold;
+} */
+#cod {
+    width: 100px;
+    height: 26px;
+    float: left;
+    color: #000 !important;
+    margin: -262px 0 0 32px;
+    font-size: 11px;
+    font-weight: bold;
+}
+
+#regiao {
+    width: 140px;
+    height: 26px;
+    float: left;
+    color: #000 !important;
+    margin: -262px 0 0 115px;
+    font-size: 11px;
+    font-weight: bold;
+}
+
+#cpf {
+    width: 140px;
+    height: 26px;
+    float: left;
+    color: #000 !important;
+    margin: -262px 0 0 242px;
+    font-size: 11px;
+    font-weight: bold;
+}
+
+#legendas2 {
+    width: 300px;
+    height: 30px;
+    float: left;
+    margin: -241px 0 0 32px;
+    _margin: -241px 0 0 32px;
+    overflow: hidden;
+    font-weight: bold;
+    color: #5a71b5;
+}
+
+    #legendas2 div {
+        height: 30px;
+        float: left;
+        color: #5a71b5;
+        font-size: 9px;
+    }
+
+    #legendas2 .dep {
+        width: 215px;
+        margin: 0px 0 0 0px;
+    }
+
+    #legendas2 .tipo {
+        margin: 0px 0 0 0px;
+    }
+
+#dependente {
+    width: 220px;
+    height: 12px;
+    float: left;
+    color: #000 !important;
+    margin: -231px 0 0 32px;
+    font-size: 12px;
+    overflow: hidden !important;
+    text-transform: uppercase;
+    opacity: 0.9;
+    font-weight: bold;
+}
+
+#tipo {
+    width: 140px;
+    height: 26px;
+    float: left;
+    color: #000 !important;
+    margin: -231px 0 0 248px;
+    font-size: 10px;
+    font-weight: normal;
+    text-transform: uppercase;
+    opacity: 0.9;
+    font-weight: bold;
+}
+
+/*Fim do bloco de div's que compões o rodapé do site*/
+
+
+#rodape {
+    width: 548px;
+    height: 60px;
+    float: left;
+    /*	background-image:url(../imagens/rodape.jpg);
+	background-repeat:no-repeat;*/
+}
+
+    #rodape p {
+        margin-top: -60px;
+        text-align: center;
+        color: #000;
+        font-size: 14px;
+    }

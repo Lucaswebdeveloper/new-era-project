@@ -1,0 +1,119 @@
+img {
+	border:none;
+}
+
+    /*Inicio do bloco de div's que compões o corpo do site*/
+    .cartao-associado .corpo {
+        width: 548px;
+        height: 580px;
+        float: left;
+    }
+
+    .cartao-associado .descricao {
+        width: 548px;
+        height: 80px;
+        float: left;
+    }
+
+        .cartao-associado .descricao p {
+            margin-top: 25px;
+            text-align: center;
+            color: #000;
+            font-size: 14px;
+        }
+
+    .cartao-associado .cartao {
+        float: left;
+        width: 100%;
+        /*	background-image:url(../imagens/cartao.jpg);
+	background-repeat:no-repeat;*/
+    }
+
+
+    .cartao-associado .cartao {
+        width: 100%;
+        max-width:365px;
+        min-height: 447px;
+        margin-bottom:60px;
+    }
+
+
+    .cartao-associado #cartao img {
+        float: left;
+    }
+
+    .cartao-associado .nome {
+        width: 300px;
+        height: 25px;
+        float: left;
+        color: #000;
+        margin: -290px 0 0 28px;
+        _margin: -290px 0 0 14px;
+        font-size: 13px;
+        font-weight: bold;
+        overflow: hidden;
+    }
+
+    .cartao-associado .legendas {
+        width: 300px;
+        height: 30px;
+        float: left;
+        margin: -262px 0 0 28px;
+        _margin: -262px 0 0 14px;
+        overflow: hidden;
+    }
+
+        .cartao-associado .legendas div {
+            height: 30px;
+            float: left;
+            color:#5a71b5!important;
+            font-size: 8px;
+            font-weight: normal;
+            opacity: 0.8;
+        }
+
+        .cartao-associado .legendas .cod {
+            width: 190px;
+            margin: 0px 0 0 0px;
+            color:#5a71b5!important;
+        }
+
+        .cartao-associado .legendas .cpf {
+            margin: 0px 0 0 17px;
+        }
+
+    .cartao-associado .cod {
+        width: 100px;
+        height: 26px;
+        float: left;
+        color: #000;
+        margin: -250px 0 0 28px;
+        _margin: -250px 0 0 14px;
+        font-size: 12px;
+        font-weight: bold;
+    }
+
+    .cartao-associado .regiao {
+        width: 140px;
+        height: 26px;
+        float: left;
+        color: #000;
+        margin: -250px 0 0 115px;
+        _margin: -250px 0 0 114px;
+        font-size: 12px;
+        font-weight: bold;
+    }
+
+    .cartao-associado .cpf {
+        width: 140px;
+        height: 26px;
+        float: left;
+        color: #000;
+        margin: -250px 0 0 235px;
+        _margin: -250px 0 0 -18px;
+        font-size: 12px;
+        font-weight: bold;
+    }
+
+    /*Fim do bloco de div's que compões o rodapé do site*/
+

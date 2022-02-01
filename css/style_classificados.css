@@ -1,0 +1,200 @@
+﻿
+@import url("responsivo_interno.css");
+
+.titulo-pagina {
+    font-weight: bold;
+}
+
+.container-anuncio .anuncio .anuncio-dados ul li {
+    font-size: 13px;/**/
+    padding: 10px;
+    margin: 1px 0;
+}
+
+    .container-anuncio .anuncio .anuncio-dados ul li .anuncio-titulo {
+        width: 100%;
+        float: left;
+        font-weight: bold;
+        margin-bottom: 5px;
+    }
+
+    .container-anuncio .anuncio .anuncio-dados ul li:nth-child(odd) {
+        background: #E7E7E7;
+    }
+
+    .container-anuncio .anuncio .anuncio-dados ul li:nth-child(even) {
+        background: #ffffff;
+    }
+
+.classificados-interno ul a li:nth-child(odd) {
+    background: #E7E7E7;
+}
+
+.classificados-interno ul a li:nth-child(even) {
+    background: #ffffff;
+}
+
+
+/*======================= 1.0 PÁGINA PRINCIPAL (CLASSIFICADOS) ==================================   */
+.container-classificados .classificados-interno {
+    width: 100%;
+    float: left;
+}
+
+    .container-classificados .classificados-interno a {
+        color: #000;
+    }
+
+        .container-classificados .classificados-interno a .anuncio {
+            width: 100%;
+            float: left;
+            margin: 0 00px 15px 0;
+            padding: 10px 10px;
+            border: 1px solid #e0e0e0;
+             box-shadow: 3px 3px 10px #888888;
+        }
+
+            .container-classificados .classificados-interno a .anuncio div {
+                width: 100%;
+                float: left;
+            }
+
+            .container-classificados .classificados-interno a .anuncio .anuncio-descricao {
+                width: 100%;
+                float: left;
+                font-size: 16px;
+            }
+
+            .container-classificados .classificados-interno a .anuncio .anuncio-dados-associado {
+                width: 100%;
+                float: left;
+                font-size: 16px;
+                margin-top: 5px;
+                padding-top: 5px;
+                border-top: 1px solid #E7E7E7;
+            }
+
+
+                .container-classificados .classificados-interno a .anuncio .anuncio-dados-associado .nome,
+                .container-classificados .classificados-interno a .anuncio .anuncio-dados-associado .email {
+                    width: 70%;
+                    float: left;
+                }
+
+                .container-classificados .classificados-interno a .anuncio .anuncio-dados-associado .telefone,
+                .container-classificados .classificados-interno a .anuncio .anuncio-dados-associado .lotacao {
+                    width: 30%;
+                    float: left;
+                }
+
+            .container-classificados .classificados-interno a .anuncio .anuncio-descricao .descricao {
+                width: 80%;
+                float: left;
+                margin: 0 0 5px 0;
+                padding-left:5px;
+            }
+
+            .container-classificados .classificados-interno a .anuncio .anuncio-descricao .qtd-fotos {
+                width: 45%;
+                float: left;
+                text-align: left;
+                font-size: 14px;
+            }
+
+            .container-classificados .classificados-interno a .anuncio .anuncio-descricao .dt-cadastrado {
+                width: 45%;
+                float: right;
+                text-align: right;
+                font-size: 14px;
+            }
+
+            .container-classificados .classificados-interno a .anuncio:hover .com-foto {
+                color: #0F9E5E;
+            }
+
+            .container-classificados .classificados-interno a .anuncio:hover .sem-foto {
+                color: #d43f3a;
+            }
+
+/* Grow Shadow */
+.hvr-grow-shadow {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px transparent;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: box-shadow, transform;
+    transition-property: box-shadow, transform;
+}
+
+    .hvr-grow-shadow:hover, .hvr-grow-shadow:focus, .hvr-grow-shadow:active {
+        box-shadow: 0 10px 10px -10px rgba(0, 0, 0, 0.5);
+        -webkit-transform: scale(1.02);
+        transform: scale(1.02);
+    }
+
+
+/* Underline From Center */
+.hvr-underline-from-center {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px transparent;
+    position: relative;
+    overflow: hidden;
+}
+
+    .hvr-underline-from-center:before {
+        content: "";
+        position: absolute;
+        z-index: -1;
+        left: 50%;
+        right: 50%;
+        bottom: 0;
+        background: #64b7e1;
+        height: 4px;
+        -webkit-transition-property: left, right;
+        transition-property: left, right;
+        -webkit-transition-duration: 0.3s;
+        transition-duration: 0.3s;
+        -webkit-transition-timing-function: ease-out;
+        transition-timing-function: ease-out;
+    }
+
+    .hvr-underline-from-center:hover:before, .hvr-underline-from-center:focus:before, .hvr-underline-from-center:active:before {
+        left: 0;
+        right: 0;
+    }
+
+
+/*======================= 2.0 PÁGINA ANUNCIO ==================================   */
+.container-anuncio .anuncio {
+    width: 100%;
+    float: left;
+}
+
+    .container-anuncio .anuncio .anuncio-galeria {
+        width: 50%;
+        float: left;
+    }
+
+    .container-anuncio .anuncio .com-foto {
+        width: 40%;
+        float: left;
+        margin-left: 5%;
+    }
+
+@media only screen and (max-width:414px) {
+    .container-anuncio .anuncio .anuncio-galeria, .container-anuncio .anuncio .com-foto {
+        width:100%;
+        margin-bottom:20px;
+        margin-left:0;
+    }
+}
+
+.tel-conv {
+    word-break: break-word;
+}
